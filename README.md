@@ -1,14 +1,15 @@
-# SPI Controller | RTL-to-GDSII using OpenLane
+# I²C Controller | RTL-to-GDSII using OpenLane
 
 ## Overview
 
-This project implements a Serial Peripheral Interface (SPI) Controller in Verilog HDL and demonstrates the complete RTL-to-GDSII ASIC design flow using OpenLane with the SKY130 PDK.
+This project implements an Inter-Integrated Circuit (I²C) Controller in Verilog HDL and demonstrates the complete RTL-to-GDSII ASIC design flow using OpenLane with the SKY130 PDK.
 
 ## Features
 
-- SPI Master Controller
-- Full-Duplex Serial Communication
-- Configurable Clock
+- I²C Master Controller
+- Two-Wire Serial Communication (SDA & SCL)
+- Start and Stop Condition Generation
+- Read and Write Operations
 - Functional Verification using ModelSim
 - RTL-to-GDSII Implementation using OpenLane
 
@@ -25,12 +26,12 @@ This project implements a Serial Peripheral Interface (SPI) Controller in Verilo
 
 ## Files
 
-- spi.v
-- spi_tb.v
-- spi_simulation.png
-- spi_rtl.png
-- spi_gdsii.png
-- spi_synthesis_report.txt
+- i2c.v
+- i2c_tb.v
+- i2c_simulation.png
+- i2c_rtl.png
+- i2c_gdsii.png
+- i2c_synthesis_report.txt
 
 ## Results
 
